@@ -48,13 +48,13 @@ const allocationData = {
     {
       data: [18, 25, 15, 10, 12, 10, 10],
       backgroundColor: [
-        '#4f46e5', // indigo-600 - 主色调
-        '#3b82f6', // blue-500 - 辅助色
-        '#10b981', // emerald-500 - 成功色
-        '#f59e0b', // amber-500 - 警告色
-        '#8b5cf6', // violet-500 - 强调色
-        '#06b6d4', // cyan-500 - 信息色
-        '#6366f1'  // indigo-500 - 主色调变体
+        '#4b5563', // gray-600 - 主色调
+        '#6b7280', // gray-500 - 辅助色
+        '#9ca3af', // gray-400 - 成功色
+        '#d1d5db', // gray-300 - 警告色
+        '#e5e7eb', // gray-200 - 强调色
+        '#f3f4f6', // gray-100 - 信息色
+        '#f9fafb'  // gray-50 - 主色调变体
       ],
       borderWidth: 2,
       borderColor: '#ffffff',
@@ -84,9 +84,9 @@ const chartOptions = {
     },
     tooltip: {
       backgroundColor: 'rgba(255, 255, 255, 0.95)',
-      titleColor: '#312e81', // indigo-900 - 与页面标题颜色一致
-      bodyColor: '#4f46e5', // indigo-600 - 主色调
-      borderColor: '#e0e7ff', // indigo-100 - 边框颜色
+      titleColor: '#111827', // gray-900 - 与页面标题颜色一致
+      bodyColor: '#4b5563', // gray-600 - 主色调
+      borderColor: '#f3f4f6', // gray-100 - 边框颜色
       borderWidth: 1,
       padding: 12,
       cornerRadius: 8,
@@ -111,17 +111,17 @@ const chartOptions = {
 </script>
 
 <template>
-  <div class="font-sans leading-relaxed text-neutral-900 bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen">
+  <div class="font-sans leading-relaxed text-neutral-900 bg-gradient-to-br from-gray-50 to-gray-100 min-h-screen">
     <!-- Navigation -->
     <header class="fixed w-full transition-all duration-500 ease-in-out z-50" :class="isScrolled ? 'bg-white/95 backdrop-blur-md shadow-md' : 'bg-white/90 backdrop-blur-sm shadow-sm'">
       <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-        <div class="text-2xl font-bold text-indigo-600">
-          <span class="bg-indigo-600 text-white px-3 py-1 rounded">PZG</span> (Pulse Zenith Grid)
+        <div class="text-2xl font-bold text-gray-600">
+          <span class="bg-gray-600 text-white px-3 py-1 rounded">PZG</span> (Pulse Zenith Grid)
         </div>
         
         <!-- Desktop Menu -->
         <nav class="hidden md:flex space-x-8">
-          <a href="#home" class="font-medium text-gray-700 hover:text-indigo-600 transition-colors">Home</a>
+          <a href="#home" class="font-medium text-gray-700 hover:text-gray-600 transition-colors">Home</a>
           <a href="#about" class="font-medium text-gray-700 hover:text-indigo-600 transition-colors">About PZG</a>
           <a href="#solutions" class="font-medium text-gray-700 hover:text-indigo-600 transition-colors">Technology</a>
           <a href="#tokenomics" class="font-medium text-gray-700 hover:text-indigo-600 transition-colors">Tokenomics</a>
@@ -160,24 +160,15 @@ const chartOptions = {
     <main class="pt-24 pb-16">
       <!-- Hero Section -->
       <section id="home" class="container mx-auto px-4 py-16 text-center">
-        <h1 class="text-4xl md:text-6xl font-bold text-indigo-900 mb-6 leading-tight scroll-animation opacity-0 transform translate-y-10 transition-all duration-700">
+        <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight scroll-animation opacity-0 transform translate-y-10 transition-all duration-700">
           Infinite Value · User-Centric Liquidity Network
         </h1>
         <p class="text-lg md:text-xl text-gray-600 mb-10 max-w-3xl mx-auto scroll-animation opacity-0 transform translate-y-10 transition-all duration-700 animation-delay-200">
           PZG is the "intelligent grid" connecting all blockchains. Leveraging decentralized technology and AI, we break down cross-chain value barriers, enabling assets to flow safely and efficiently to value-maximizing scenarios in the global multi-chain ecosystem, achieving integrated, intelligent, and democratized liquidity.
         </p>
         <div class="flex flex-col sm:flex-row justify-center gap-4 scroll-animation opacity-0 transform scale-95 transition-all duration-700 animation-delay-400">
-          <button class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-8 py-3 rounded-full transition-all hover:shadow-lg transform hover:-translate-y-1">
+          <button class="bg-indigo-600 hover:bg-gray-700 text-white font-semibold px-8 py-3 rounded-full transition-all hover:shadow-lg transform hover:-translate-y-1">
             View Whitepaper
-          </button>
-          <button class="bg-white hover:bg-gray-100 text-indigo-600 font-semibold px-8 py-3 rounded-full border border-indigo-200 transition-all hover:shadow-md transform hover:-translate-y-1">
-            Join Ecosystem
-          </button>
-          <button class="bg-white hover:bg-gray-100 text-indigo-600 font-semibold px-8 py-3 rounded-full border border-indigo-200 transition-all hover:shadow-md transform hover:-translate-y-1">
-            Download DApp <span class="text-xs text-gray-500">(Coming Soon)</span>
-          </button>
-          <button class="bg-white hover:bg-gray-100 text-indigo-600 font-semibold px-8 py-3 rounded-full border border-indigo-200 transition-all hover:shadow-md transform hover:-translate-y-1">
-            Contract Address
           </button>
         </div>
       </section>
@@ -191,12 +182,12 @@ const chartOptions = {
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="bg-white rounded-xl shadow-lg p-8 transition-all hover:shadow-xl transform hover:-translate-y-2 scroll-animation opacity-0 transform translate-y-10 transition-all duration-700">
-            <div class="bg-indigo-100 w-14 h-14 rounded-full flex items-center justify-center mb-6">
+            <div class="bg-gray-100 w-14 h-14 rounded-full flex items-center justify-center mb-6">
               <svg class="w-7 h-7 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
               </svg>
             </div>
-            <h3 class="text-xl font-bold mb-3 text-indigo-800">Cross-Chain Communication Layer</h3>
+            <h3 class="text-xl font-bold mb-3 text-gray-800">Cross-Chain Communication Layer</h3>
             <ul class="text-gray-600 space-y-2">
               <li class="flex items-start"><span class="text-indigo-600 mr-2">•</span>Decentralized Validator Network: Global node operators stake PZG to qualify</li>
               <li class="flex items-start"><span class="text-indigo-600 mr-2">•</span>Consensus Mechanism: Enhanced PBFT, requiring more than two-thirds of weighted nodes to confirm cross-chain messages</li>
@@ -237,8 +228,8 @@ const chartOptions = {
           <h3 class="text-2xl font-bold mb-6 text-center text-indigo-800">Security Mechanisms</h3>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div class="flex items-start space-x-4">
-              <div class="bg-green-100 p-2 rounded-full">
-                <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="bg-gray-100 p-2 rounded-full">
+                <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
               </div>
@@ -297,7 +288,7 @@ const chartOptions = {
           <div class="overflow-x-auto">
             <table class="w-full border-collapse">
               <thead>
-                <tr class="bg-indigo-50">
+                <tr class="bg-gray-50">
                   <th class="border-b border-gray-200 px-4 py-3 text-left text-gray-600 font-semibold">Parameter</th>
                   <th class="border-b border-gray-200 px-4 py-3 text-left text-gray-600 font-semibold">Details</th>
                 </tr>
@@ -904,9 +895,6 @@ const chartOptions = {
             <ul class="space-y-2">
               <li><a href="#" class="text-indigo-200 hover:text-white transition-all duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-105">Website</a></li>
               <li><a href="#" class="text-indigo-200 hover:text-white transition-all duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-105">Whitepaper</a></li>
-              <li><a href="#" class="text-indigo-200 hover:text-white transition-all duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-105">Twitter</a></li>
-              <li><a href="#" class="text-indigo-200 hover:text-white transition-all duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-105">Telegram</a></li>
-              <li><a href="#" class="text-indigo-200 hover:text-white transition-all duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-105">Medium</a></li>
             </ul>
           </div>
           <div class="scroll-animation opacity-0 transform translate-y-10 transition-all duration-700 animation-delay-400">
@@ -915,19 +903,8 @@ const chartOptions = {
               <li><a href="#" class="text-indigo-200 hover:text-white transition-all duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-105">FAQ</a></li>
               <li><a href="#contact" class="text-indigo-200 hover:text-white transition-all duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-105">Contact Form</a></li>
             </ul>
-            <h4 class="text-lg font-semibold mb-4 mt-8">Legal</h4>
-            <ul class="space-y-2">
-              <li><a href="#" class="text-indigo-200 hover:text-white transition-all duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-105">Terms of Service</a></li>
-              <li><a href="#" class="text-indigo-200 hover:text-white transition-all duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-105">Privacy Policy</a></li>
-              <li><a href="#risks" class="text-indigo-200 hover:text-white transition-all duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-105">Compliance</a></li>
-            </ul>
           </div>
           <div class="scroll-animation opacity-0 transform translate-y-10 transition-all duration-700 animation-delay-600">
-            <h4 class="text-lg font-semibold mb-4">Contract Address</h4>
-            <ul class="space-y-2">
-              <li><a href="#" class="text-indigo-200 hover:text-white transition-all duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-105 font-mono text-sm">0x123...4567</a></li>
-              <li><a href="#" class="text-indigo-200 hover:text-white transition-all duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-105">Blockchain Explorer</a></li>
-            </ul>
             <h4 class="text-lg font-semibold mb-4 mt-8">Contact Information</h4>
             <ul class="space-y-2">
               <li class="flex items-center space-x-2">
