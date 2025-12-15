@@ -176,7 +176,7 @@ const chartOptions = {
       <!-- Solutions Section -->
       <section id="solutions" class="container mx-auto px-4 py-16">
         <div class="text-center mb-16">
-          <h2 class="text-3xl md:text-4xl font-bold text-blue-900 mb-4">Three-Core Technical Architecture</h2>
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Three-Core Technical Architecture</h2>
           <p class="text-gray-600 max-w-2xl mx-auto">Building an efficient, secure, and intelligent multi-chain value planning network</p>
         </div>
         
@@ -278,7 +278,7 @@ const chartOptions = {
       <!-- Tokenomics Section -->
       <section id="tokenomics" class="container mx-auto px-4 py-16">
         <div class="text-center mb-16">
-          <h2 class="text-3xl md:text-4xl font-bold text-blue-900 mb-4">Tokenomics</h2>
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Tokenomics</h2>
           <p class="text-gray-600 max-w-2xl mx-auto">Core information, utilities, allocation mechanism, and economic model of PZG token</p>
         </div>
         
@@ -451,15 +451,15 @@ const chartOptions = {
       <!-- Features Section -->
       <section id="features" class="container mx-auto px-4 py-16 bg-white rounded-3xl shadow-xl -mt-8">
         <div class="text-center mb-16">
-          <h2 class="text-3xl md:text-4xl font-bold text-indigo-900 mb-4">Core Advantages</h2>
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Core Advantages</h2>
           <p class="text-gray-600 max-w-2xl mx-auto">Key advantages of building a multi-chain value planning network</p>
         </div>
         
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div class="space-y-6 scroll-animation opacity-0 transform translate-x-10 transition-all duration-700 animation-delay-200">
             <div class="flex items-start space-x-4">
-              <div class="bg-green-100 p-2 rounded-full">
-                <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="bg-gray-100 p-2 rounded-full">
+                <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
               </div>
@@ -474,8 +474,8 @@ const chartOptions = {
             </div>
             
             <div class="flex items-start space-x-4">
-              <div class="bg-green-100 p-2 rounded-full">
-                <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="bg-gray-100 p-2 rounded-full">
+                <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
               </div>
@@ -490,8 +490,8 @@ const chartOptions = {
             </div>
             
             <div class="flex items-start space-x-4">
-              <div class="bg-green-100 p-2 rounded-full">
-                <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="bg-gray-100 p-2 rounded-full">
+                <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
               </div>
@@ -507,13 +507,13 @@ const chartOptions = {
           </div>
           
           <div class="relative scroll-animation opacity-0 transform -translate-x-10 transition-all duration-700 animation-delay-400">
-            <div class="bg-gradient-to-br from-indigo-500 to-purple-600 rounded-2xl p-1">
+            <div class="bg-gradient-to-br from-gray-500 to-gray-600 rounded-2xl p-1">
               <div class="bg-white rounded-xl p-6">
                 <div class="flex justify-between items-center mb-4">
                   <div class="flex space-x-2">
-                    <div class="w-3 h-3 rounded-full bg-red-500"></div>
-                    <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
-                    <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                    <div class="w-3 h-3 rounded-full bg-gray-500"></div>
+                    <div class="w-3 h-3 rounded-full bg-gray-400"></div>
+                    <div class="w-3 h-3 rounded-full bg-gray-300"></div>
                   </div>
                   <div class="text-xs text-gray-500">PZG Multi-Chain Value Network</div>
                 </div>
@@ -521,34 +521,34 @@ const chartOptions = {
                   <div>
                     <div class="flex justify-between text-sm font-medium mb-1">
                       <span>Multi-Chain Connections</span>
-                      <span class="text-green-600">20+</span>
+                      <span class="text-gray-600">20+</span>
                     </div>
                     <div class="w-full bg-gray-200 rounded-full h-2">
-                      <div class="bg-green-600 h-2 rounded-full scroll-animation transform scale-x-0 origin-left transition-all duration-1000 animation-delay-600" style="width: 80%"></div>
+                      <div class="bg-gray-600 h-2 rounded-full scroll-animation transform scale-x-0 origin-left transition-all duration-1000 animation-delay-600" style="width: 80%"></div>
                     </div>
                   </div>
                   <div>
                     <div class="flex justify-between text-sm font-medium mb-1">
                       <span>Liquidity Aggregation</span>
-                      <span class="text-green-600">$500M+</span>
+                      <span class="text-gray-600">$500M+</span>
                     </div>
                     <div class="w-full bg-gray-200 rounded-full h-2">
-                      <div class="bg-blue-600 h-2 rounded-full scroll-animation transform scale-x-0 origin-left transition-all duration-1000 animation-delay-800" style="width: 75%"></div>
+                      <div class="bg-gray-500 h-2 rounded-full scroll-animation transform scale-x-0 origin-left transition-all duration-1000 animation-delay-800" style="width: 75%"></div>
                     </div>
                   </div>
                   <div>
                     <div class="flex justify-between text-sm font-medium mb-1">
                       <span>Validator Nodes</span>
-                      <span class="text-green-600">500+</span>
+                      <span class="text-gray-600">500+</span>
                     </div>
                     <div class="w-full bg-gray-200 rounded-full h-2">
-                      <div class="bg-purple-600 h-2 rounded-full scroll-animation transform scale-x-0 origin-left transition-all duration-1000 animation-delay-1000" style="width: 90%"></div>
+                      <div class="bg-gray-400 h-2 rounded-full scroll-animation transform scale-x-0 origin-left transition-all duration-1000 animation-delay-1000" style="width: 90%"></div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="absolute -bottom-6 -right-6 bg-indigo-600 text-white p-4 rounded-xl shadow-lg">
+            <div class="absolute -bottom-6 -right-6 bg-gray-600 text-white p-4 rounded-xl shadow-lg">
               <div class="text-2xl font-bold">+100</div>
               <div class="text-sm">Ecosystem Partners</div>
             </div>
@@ -559,7 +559,7 @@ const chartOptions = {
       <!-- Application Scenarios Section -->
       <section id="scenarios" class="container mx-auto px-4 py-16">
         <div class="text-center mb-16">
-          <h2 class="text-3xl md:text-4xl font-bold text-indigo-900 mb-4">Use Cases</h2>
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Use Cases</h2>
           <p class="text-gray-600 max-w-2xl mx-auto">Customized multi-chain value solutions for different user groups</p>
         </div>
         
@@ -570,71 +570,71 @@ const chartOptions = {
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
               </svg>
             </div>
-            <h3 class="text-xl font-bold mb-4 text-indigo-800">Individual Users</h3>
+            <h3 class="text-xl font-bold mb-4 text-gray-700">Individual Users</h3>
             <ul class="text-gray-600 space-y-3">
               <li class="flex items-start">
-                <span class="text-indigo-600 mr-2 font-bold">•</span>
+                <span class="text-gray-500 mr-2 font-bold">•</span>
                 <span><strong>One-Click Multi-Chain Configuration:</strong> Automatically execute cross-chain transfers, swaps, and staking for optimal asset allocation</span>
               </li>
               <li class="flex items-start">
-                <span class="text-indigo-600 mr-2 font-bold">•</span>
+                <span class="text-gray-500 mr-2 font-bold">•</span>
                 <span><strong>Seamless Cross-Chain Payments:</strong> Use assets from one chain to pay on another (no need to pre-stake Gas tokens)</span>
               </li>
             </ul>
           </div>
           
           <div class="bg-white rounded-xl shadow-lg p-8 transition-all hover:shadow-xl transform hover:-translate-y-2 scroll-animation opacity-0 transform translate-y-10 transition-all duration-700 animation-delay-200">
-            <div class="bg-purple-100 w-14 h-14 rounded-full flex items-center justify-center mb-6">
-              <svg class="w-7 h-7 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="bg-gray-100 w-14 h-14 rounded-full flex items-center justify-center mb-6">
+              <svg class="w-7 h-7 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
               </svg>
             </div>
-            <h3 class="text-xl font-bold mb-4 text-indigo-800">Traders & Institutions</h3>
+            <h3 class="text-xl font-bold mb-4 text-gray-700">Traders & Institutions</h3>
             <ul class="text-gray-600 space-y-3">
               <li class="flex items-start">
-                <span class="text-indigo-600 mr-2 font-bold">•</span>
+                <span class="text-gray-500 mr-2 font-bold">•</span>
                 <span><strong>Automated Cross-Chain Arbitrage:</strong> Real-time interest rate monitoring + atomic execution of lending/deposit strategies</span>
               </li>
               <li class="flex items-start">
-                <span class="text-indigo-600 mr-2 font-bold">•</span>
+                <span class="text-gray-500 mr-2 font-bold">•</span>
                 <span><strong>Institutional-Level Liquidity Provision:</strong> Cross-chain unified market making with centralized rebalancing</span>
               </li>
             </ul>
           </div>
           
           <div class="bg-white rounded-xl shadow-lg p-8 transition-all hover:shadow-xl transform hover:-translate-y-2 scroll-animation opacity-0 transform translate-y-10 transition-all duration-700 animation-delay-400">
-            <div class="bg-green-100 w-14 h-14 rounded-full flex items-center justify-center mb-6">
-              <svg class="w-7 h-7 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="bg-gray-100 w-14 h-14 rounded-full flex items-center justify-center mb-6">
+              <svg class="w-7 h-7 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
               </svg>
             </div>
-            <h3 class="text-xl font-bold mb-4 text-indigo-800">Developers & Project Teams</h3>
+            <h3 class="text-xl font-bold mb-4 text-gray-700">Developers & Project Teams</h3>
             <ul class="text-gray-600 space-y-3">
               <li class="flex items-start">
-                <span class="text-indigo-600 mr-2 font-bold">•</span>
+                <span class="text-gray-500 mr-2 font-bold">•</span>
                 <span><strong>One-Click Multi-Chain Deployment:</strong> Cross-chain contract deployment + access to ecosystem funds for initial liquidity</span>
               </li>
               <li class="flex items-start">
-                <span class="text-indigo-600 mr-2 font-bold">•</span>
+                <span class="text-gray-500 mr-2 font-bold">•</span>
                 <span><strong>Cross-Chain Incentive Mechanism:</strong> Cross-chain reward users without manual claiming</span>
               </li>
             </ul>
           </div>
           
           <div class="bg-white rounded-xl shadow-lg p-8 transition-all hover:shadow-xl transform hover:-translate-y-2 scroll-animation opacity-0 transform translate-y-10 transition-all duration-700 animation-delay-600">
-            <div class="bg-pink-100 w-14 h-14 rounded-full flex items-center justify-center mb-6">
-              <svg class="w-7 h-7 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="bg-gray-100 w-14 h-14 rounded-full flex items-center justify-center mb-6">
+              <svg class="w-7 h-7 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
               </svg>
             </div>
-            <h3 class="text-xl font-bold mb-4 text-indigo-800">Emerging Sectors</h3>
+            <h3 class="text-xl font-bold mb-4 text-gray-700">Emerging Sectors</h3>
             <ul class="text-gray-600 space-y-3">
               <li class="flex items-start">
-                <span class="text-indigo-600 mr-2 font-bold">•</span>
+                <span class="text-gray-500 mr-2 font-bold">•</span>
                 <span><strong>NFT/GameFi Cross-Chain Utility:</strong> Securely transfer NFTs/game assets across chains to unlock liquidity</span>
               </li>
               <li class="flex items-start">
-                <span class="text-indigo-600 mr-2 font-bold">•</span>
+                <span class="text-gray-500 mr-2 font-bold">•</span>
                 <span><strong>Multi-Chain RWA Access:</strong> Compliant on-chain access to tokenized real-world assets (e.g., U.S. Treasuries)</span>
               </li>
             </ul>
@@ -645,31 +645,31 @@ const chartOptions = {
       <!-- Development Roadmap Section -->
       <section id="roadmap" class="container mx-auto px-4 py-16">
         <div class="text-center mb-16">
-          <h2 class="text-3xl md:text-4xl font-bold text-indigo-900 mb-4">Development Roadmap</h2>
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Development Roadmap</h2>
           <p class="text-gray-600 max-w-2xl mx-auto">Phased development plan for PZG multi-chain value network</p>
         </div>
         
         <div class="max-w-4xl mx-auto">
           <div class="relative">
             <!-- Timeline line -->
-            <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-indigo-200 hidden md:block"></div>
+            <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gray-200 hidden md:block"></div>
             
             <!-- Phase 1 -->
             <div class="relative mb-16 md:mb-24 scroll-animation opacity-0 transform translate-y-10 transition-all duration-700">
               <div class="md:flex items-center">
                 <div class="md:w-1/2 md:pr-12 md:text-right mb-8 md:mb-0">
                   <div class="bg-white rounded-xl shadow-lg p-8 transition-all hover:shadow-xl">
-                    <h3 class="text-xl font-bold mb-2 text-indigo-800">Network Launch & Core Infrastructure</h3>
-                    <p class="text-indigo-600 font-semibold mb-4">Q4 2025</p>
+                    <h3 class="text-xl font-bold mb-2 text-gray-700">Network Launch & Core Infrastructure</h3>
+                    <p class="text-gray-600 font-semibold mb-4">Q4 2025</p>
                     <ul class="text-gray-600 space-y-2">
-                      <li class="flex items-start justify-end"><span class="text-indigo-600 mr-2">•</span>Complete PZG-CMP V1 development and audit</li>
-                      <li class="flex items-start justify-end"><span class="text-indigo-600 mr-2">•</span>IEO Launch</li>
-                      <li class="flex items-start justify-end"><span class="text-indigo-600 mr-2">•</span>Airdrop for early contributors</li>
+                      <li class="flex items-start justify-end"><span class="text-gray-500 mr-2">•</span>Complete PZG-CMP V1 development and audit</li>
+                      <li class="flex items-start justify-end"><span class="text-gray-500 mr-2">•</span>IEO Launch</li>
+                      <li class="flex items-start justify-end"><span class="text-gray-500 mr-2">•</span>Airdrop for early contributors</li>
                     </ul>
                   </div>
                 </div>
                 
-                <div class="absolute left-1/2 transform -translate-x-1/2 w-12 h-12 bg-indigo-600 rounded-full flex items-center justify-center z-10">
+                <div class="absolute left-1/2 transform -translate-x-1/2 w-12 h-12 bg-gray-600 rounded-full flex items-center justify-center z-10">
                   <span class="text-white font-bold">1</span>
                 </div>
                 
@@ -682,18 +682,18 @@ const chartOptions = {
               <div class="md:flex items-center">
                 <div class="md:w-1/2 md:pr-12 hidden md:block"></div>
                 
-                <div class="absolute left-1/2 transform -translate-x-1/2 w-12 h-12 bg-indigo-600 rounded-full flex items-center justify-center z-10">
+                <div class="absolute left-1/2 transform -translate-x-1/2 w-12 h-12 bg-gray-600 rounded-full flex items-center justify-center z-10">
                   <span class="text-white font-bold">2</span>
                 </div>
                 
                 <div class="md:w-1/2 md:pl-12">
                   <div class="bg-white rounded-xl shadow-lg p-8 transition-all hover:shadow-xl">
-                    <h3 class="text-xl font-bold mb-2 text-indigo-800">Protocol Expansion</h3>
-                    <p class="text-indigo-600 font-semibold mb-4">Q1 2026</p>
+                    <h3 class="text-xl font-bold mb-2 text-gray-700">Protocol Expansion</h3>
+                    <p class="text-gray-600 font-semibold mb-4">Q1 2026</p>
                     <ul class="text-gray-600 space-y-2">
-                      <li class="flex items-start"><span class="text-indigo-600 mr-2">•</span>Launch V1 Mainnet and DVN</li>
-                      <li class="flex items-start"><span class="text-indigo-600 mr-2">•</span>Enable DAO Governance</li>
-                      <li class="flex items-start"><span class="text-indigo-600 mr-2">•</span>Release Beta Dashboard</li>
+                      <li class="flex items-start"><span class="text-gray-500 mr-2">•</span>Launch V1 Mainnet and DVN</li>
+                      <li class="flex items-start"><span class="text-gray-500 mr-2">•</span>Enable DAO Governance</li>
+                      <li class="flex items-start"><span class="text-gray-500 mr-2">•</span>Release Beta Dashboard</li>
                     </ul>
                   </div>
                 </div>
@@ -705,17 +705,17 @@ const chartOptions = {
               <div class="md:flex items-center">
                 <div class="md:w-1/2 md:pr-12 md:text-right mb-8 md:mb-0">
                   <div class="bg-white rounded-xl shadow-lg p-8 transition-all hover:shadow-xl">
-                    <h3 class="text-xl font-bold mb-2 text-indigo-800">AI Engine Integration</h3>
-                    <p class="text-indigo-600 font-semibold mb-4">Q2 2026</p>
+                    <h3 class="text-xl font-bold mb-2 text-gray-700">AI Engine Integration</h3>
+                    <p class="text-gray-600 font-semibold mb-4">Q2 2026</p>
                     <ul class="text-gray-600 space-y-2">
-                      <li class="flex items-start justify-end"><span class="text-indigo-600 mr-2">•</span>Launch AI Revenue Engine Beta</li>
-                      <li class="flex items-start justify-end"><span class="text-indigo-600 mr-2">•</span>Deep DeFi Protocol Integration</li>
-                      <li class="flex items-start justify-end"><span class="text-indigo-600 mr-2">•</span>Mobile DApp Release</li>
+                      <li class="flex items-start justify-end"><span class="text-gray-500 mr-2">•</span>Launch AI Revenue Engine Beta</li>
+                      <li class="flex items-start justify-end"><span class="text-gray-500 mr-2">•</span>Deep DeFi Protocol Integration</li>
+                      <li class="flex items-start justify-end"><span class="text-gray-500 mr-2">•</span>Mobile DApp Release</li>
                     </ul>
                   </div>
                 </div>
                 
-                <div class="absolute left-1/2 transform -translate-x-1/2 w-12 h-12 bg-indigo-600 rounded-full flex items-center justify-center z-10">
+                <div class="absolute left-1/2 transform -translate-x-1/2 w-12 h-12 bg-gray-600 rounded-full flex items-center justify-center z-10">
                   <span class="text-white font-bold">3</span>
                 </div>
                 
@@ -728,18 +728,18 @@ const chartOptions = {
               <div class="md:flex items-center">
                 <div class="md:w-1/2 md:pr-12 hidden md:block"></div>
                 
-                <div class="absolute left-1/2 transform -translate-x-1/2 w-12 h-12 bg-indigo-600 rounded-full flex items-center justify-center z-10">
+                <div class="absolute left-1/2 transform -translate-x-1/2 w-12 h-12 bg-gray-600 rounded-full flex items-center justify-center z-10">
                   <span class="text-white font-bold">4</span>
                 </div>
                 
                 <div class="md:w-1/2 md:pl-12">
                   <div class="bg-white rounded-xl shadow-lg p-8 transition-all hover:shadow-xl">
-                    <h3 class="text-xl font-bold mb-2 text-indigo-800">Ecosystem Deepening</h3>
-                    <p class="text-indigo-600 font-semibold mb-4">Q3 2026+</p>
+                    <h3 class="text-xl font-bold mb-2 text-gray-700">Ecosystem Deepening</h3>
+                    <p class="text-gray-600 font-semibold mb-4">Q3 2026+</p>
                     <ul class="text-gray-600 space-y-2">
-                      <li class="flex items-start"><span class="text-indigo-600 mr-2">•</span>Cross-Chain Risk Dashboard</li>
-                      <li class="flex items-start"><span class="text-indigo-600 mr-2">•</span>RWA/GameFi Support</li>
-                      <li class="flex items-start"><span class="text-indigo-600 mr-2">•</span>Release PZG V2 (Native Lending, Re-staking, Full DAO Governance)</li>
+                      <li class="flex items-start"><span class="text-gray-500 mr-2">•</span>Cross-Chain Risk Dashboard</li>
+                      <li class="flex items-start"><span class="text-gray-500 mr-2">•</span>RWA/GameFi Support</li>
+                      <li class="flex items-start"><span class="text-gray-500 mr-2">•</span>Release PZG V2 (Native Lending, Re-staking, Full DAO Governance)</li>
                     </ul>
                   </div>
                 </div>
@@ -752,33 +752,33 @@ const chartOptions = {
       <!-- Risks & Compliance Section -->
       <section id="risks" class="container mx-auto px-4 py-16 bg-white rounded-3xl shadow-xl">
         <div class="text-center mb-16">
-          <h2 class="text-3xl md:text-4xl font-bold text-indigo-900 mb-4">Risks & Compliance</h2>
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Risks & Compliance</h2>
           <p class="text-gray-600 max-w-2xl mx-auto">Understanding potential risks and compliance requirements of PZG Network</p>
         </div>
         
         <div class="max-w-3xl mx-auto space-y-12">
           <!-- Key Risks -->
           <div class="scroll-animation opacity-0 transform translate-x-10 transition-all duration-700">
-            <h3 class="text-2xl font-bold mb-6 text-indigo-800">Key Risks</h3>
+            <h3 class="text-2xl font-bold mb-6 text-gray-700">Key Risks</h3>
             <ul class="space-y-4 text-gray-600">
               <li class="flex items-start scroll-animation opacity-0 transform translate-y-5 transition-all duration-700 animation-delay-200">
-                <span class="text-red-500 mr-3 mt-1">⚠️</span>
+                <span class="text-gray-600 mr-3 mt-1">⚠️</span>
                 <span><strong>Market Volatility:</strong> Cryptocurrency prices are significantly affected by market sentiment, regulatory policies, and macroeconomics.</span>
               </li>
               <li class="flex items-start scroll-animation opacity-0 transform translate-y-5 transition-all duration-700 animation-delay-400">
-                <span class="text-red-500 mr-3 mt-1">⚠️</span>
+                <span class="text-gray-600 mr-3 mt-1">⚠️</span>
                 <span><strong>Technical Vulnerabilities:</strong> Smart contracts or cross-chain protocols may have unknown flaws.</span>
               </li>
               <li class="flex items-start scroll-animation opacity-0 transform translate-y-5 transition-all duration-700 animation-delay-600">
-                <span class="text-red-500 mr-3 mt-1">⚠️</span>
+                <span class="text-gray-600 mr-3 mt-1">⚠️</span>
                 <span><strong>Integration Risks:</strong> Dependency on underlying chains or third-party protocols may cause service disruptions.</span>
               </li>
               <li class="flex items-start scroll-animation opacity-0 transform translate-y-5 transition-all duration-700 animation-delay-800">
-                <span class="text-red-500 mr-3 mt-1">⚠️</span>
+                <span class="text-gray-600 mr-3 mt-1">⚠️</span>
                 <span><strong>DAO Governance Risks:</strong> There may be inefficiencies, conflicts, or voting manipulation.</span>
               </li>
               <li class="flex items-start scroll-animation opacity-0 transform translate-y-5 transition-all duration-700 animation-delay-1000">
-                <span class="text-red-500 mr-3 mt-1">⚠️</span>
+                <span class="text-gray-600 mr-3 mt-1">⚠️</span>
                 <span><strong>Private Key Responsibility:</strong> Users are responsible for protecting their private keys and mnemonics.</span>
               </li>
             </ul>
@@ -786,10 +786,10 @@ const chartOptions = {
           
           <!-- Compliance Statement & Disclaimer -->
           <div class="bg-gray-50 p-8 rounded-xl scroll-animation opacity-0 transform -translate-x-10 transition-all duration-700 animation-delay-1200">
-            <h3 class="text-2xl font-bold mb-4 text-indigo-800">Compliance Statement</h3>
+            <h3 class="text-2xl font-bold mb-4 text-gray-700">Compliance Statement</h3>
             <p class="text-gray-600 mb-6">PZG complies with global regulatory requirements. Users must ensure compliance with local laws and regulations (securities, tax, anti-money laundering, etc.) when using the protocol. PZG does not provide legal or tax advice.</p>
             
-            <h3 class="text-2xl font-bold mb-4 text-indigo-800">Disclaimer</h3>
+            <h3 class="text-2xl font-bold mb-4 text-gray-700">Disclaimer</h3>
             <p class="text-gray-600">The content of this website is for reference only and does not constitute investment advice. Using PZG indicates that users voluntarily assume all related risks. The PZG Foundation, team, and contributors shall not be liable for direct/indirect losses caused by the use of the protocol. Roadmaps and details may be adjusted by the DAO.</p>
           </div>
         </div>
@@ -798,27 +798,27 @@ const chartOptions = {
       <!-- About Section -->
       <section id="about" class="container mx-auto px-4 py-16">
         <div class="text-center mb-16">
-          <h2 class="text-3xl md:text-4xl font-bold text-indigo-900 mb-4">About PZG</h2>
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">About PZG</h2>
           <p class="text-gray-600 max-w-2xl mx-auto">Building the 'Intelligent Network' of Digital Value</p>
         </div>
         
         <div class="max-w-3xl mx-auto space-y-8">
           <div class="scroll-animation opacity-0 transform translate-y-10 transition-all duration-700">
-            <h3 class="text-2xl font-semibold text-indigo-800 mb-4">Industry Status</h3>
+            <h3 class="text-2xl font-semibold text-gray-700 mb-4">Industry Status</h3>
             <p class="text-gray-600">
               Blockchain has entered the era of 'multi-chain coexistence'. Ethereum-compatible chains, high-performance public chains, and Layer 2 solutions are thriving, but three key pain points hinder ecological growth: fragmented liquidity, complex user experience, and low capital utilization efficiency.
             </p>
           </div>
           
           <div class="scroll-animation opacity-0 transform translate-y-10 transition-all duration-700 animation-delay-200">
-            <h3 class="text-2xl font-semibold text-indigo-800 mb-4">Market Demand</h3>
+            <h3 class="text-2xl font-semibold text-gray-700 mb-4">Market Demand</h3>
             <p class="text-gray-600">
               Beyond traditional 'point-to-point bridge 1.0' solutions, the market needs a next-generation multi-chain value planning network with: many-to-many connections (linking all key chains), intelligent routing (optimal asset transfer paths), value growth (automatic execution of value-added strategies), and decentralized security (no single chain/centralized dependency).
             </p>
           </div>
           
           <div class="scroll-animation opacity-0 transform translate-y-10 transition-all duration-700 animation-delay-400">
-            <h3 class="text-2xl font-semibold text-indigo-800 mb-4">PZG's Mission</h3>
+            <h3 class="text-2xl font-semibold text-gray-700 mb-4">PZG's Mission</h3>
             <p class="text-gray-600">
               Building the 'intelligent network' of digital value - eliminating cross-chain barriers through decentralized networks and AI. We ensure that any asset can flow safely and instantly to its highest value chain at any time, returning liquidity and yield sovereignty to users. PZG aims to become the foundational protocol for future blockchain interoperability and free value flow.
             </p>
@@ -830,7 +830,7 @@ const chartOptions = {
       <section id="contact" class="container mx-auto px-4 py-16">
         <div class="max-w-4xl mx-auto bg-white rounded-3xl shadow-xl p-8 md:p-12 scroll-animation opacity-0 transform translate-y-10 transition-all duration-700">
           <div class="text-center mb-12">
-            <h2 class="text-3xl md:text-4xl font-bold text-indigo-900 mb-4">Contact Us</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Contact Us</h2>
           <p class="text-gray-600">Interested in learning more about PZG multi-chain value network? Please contact us</p>
           </div>
           
@@ -838,23 +838,23 @@ const chartOptions = {
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div class="scroll-animation opacity-0 transform translate-y-10 transition-all duration-700 animation-delay-200">
                 <label class="block text-sm font-medium text-gray-700 mb-1">Name</label>
-              <input type="text" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all duration-500 hover:border-indigo-400 hover:shadow-md" placeholder="Your Name">
+              <input type="text" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent transition-all duration-500 hover:border-gray-400 hover:shadow-md" placeholder="Your Name">
               </div>
               <div class="scroll-animation opacity-0 transform translate-y-10 transition-all duration-700 animation-delay-400">
                 <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
-              <input type="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all duration-500 hover:border-indigo-400 hover:shadow-md" placeholder="Your Email">
+              <input type="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent transition-all duration-500 hover:border-gray-400 hover:shadow-md" placeholder="Your Email">
               </div>
             </div>
             <div class="scroll-animation opacity-0 transform translate-y-10 transition-all duration-700 animation-delay-600">
               <label class="block text-sm font-medium text-gray-700 mb-1">Project Name</label>
-              <input type="text" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all duration-500 hover:border-indigo-400 hover:shadow-md" placeholder="Your Project Name">
+              <input type="text" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent transition-all duration-500 hover:border-gray-400 hover:shadow-md" placeholder="Your Project Name">
             </div>
             <div class="scroll-animation opacity-0 transform translate-y-10 transition-all duration-700 animation-delay-800">
               <label class="block text-sm font-medium text-gray-700 mb-1">Message</label>
-              <textarea class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all duration-500 hover:border-indigo-400 hover:shadow-md" rows="4" placeholder="Please tell us your needs"></textarea>
+              <textarea class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent transition-all duration-500 hover:border-gray-400 hover:shadow-md" rows="4" placeholder="Please tell us your needs"></textarea>
             </div>
             <div class="text-center scroll-animation opacity-0 transform translate-y-10 transition-all duration-700 animation-delay-1000">
-              <button type="submit" class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-8 py-3 rounded-full transition-all hover:shadow-lg transform hover:-translate-y-1 duration-300">
+              <button type="submit" class="bg-gray-600 hover:bg-gray-700 text-white font-semibold px-8 py-3 rounded-full transition-all hover:shadow-lg transform hover:-translate-y-1 duration-300">
                 Send Message
               </button>
             </div>
@@ -864,16 +864,16 @@ const chartOptions = {
     </main>
     
     <!-- Footer -->
-    <footer class="bg-indigo-900 text-white py-12">
+    <footer class="bg-gray-900 text-white py-12">
       <div class="container mx-auto px-4">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div class="scroll-animation opacity-0 transform translate-y-10 transition-all duration-700">
             <div class="text-2xl font-bold mb-4">
-              <span class="bg-white text-indigo-600 px-3 py-1 rounded">PZG</span> (Pulse Zenith Grid)
+              <span class="bg-gray-600 text-white px-3 py-1 rounded">PZG</span> (Pulse Zenith Grid)
             </div>
-            <p class="text-indigo-200 mb-4">Infinite Value · User-Centric Liquidity Network</p>
+            <p class="text-gray-200 mb-4">Infinite Value · User-Centric Liquidity Network</p>
             <div class="flex space-x-4">
-              <a href="#" class="text-indigo-200 hover:text-white transition-all duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-125 hover:rotate-6">
+              <a href="#" class="text-gray-200 hover:text-white transition-all duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-125 hover:rotate-6">
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
                 </svg>
@@ -893,15 +893,15 @@ const chartOptions = {
           <div class="scroll-animation opacity-0 transform translate-y-10 transition-all duration-700 animation-delay-200">
             <h4 class="text-lg font-semibold mb-4">Official Links</h4>
             <ul class="space-y-2">
-              <li><a href="#" class="text-indigo-200 hover:text-white transition-all duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-105">Website</a></li>
-              <li><a href="#" class="text-indigo-200 hover:text-white transition-all duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-105">Whitepaper</a></li>
+              <li><a href="#" class="text-gray-200 hover:text-white transition-all duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-105">Website</a></li>
+              <li><a href="#" class="text-gray-200 hover:text-white transition-all duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-105">Whitepaper</a></li>
             </ul>
           </div>
           <div class="scroll-animation opacity-0 transform translate-y-10 transition-all duration-700 animation-delay-400">
             <h4 class="text-lg font-semibold mb-4">Support</h4>
             <ul class="space-y-2">
-              <li><a href="#" class="text-indigo-200 hover:text-white transition-all duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-105">FAQ</a></li>
-              <li><a href="#contact" class="text-indigo-200 hover:text-white transition-all duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-105">Contact Form</a></li>
+              <li><a href="#" class="text-gray-200 hover:text-white transition-all duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-105">FAQ</a></li>
+              <li><a href="#contact" class="text-gray-200 hover:text-white transition-all duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-105">Contact Form</a></li>
             </ul>
           </div>
           <div class="scroll-animation opacity-0 transform translate-y-10 transition-all duration-700 animation-delay-600">
@@ -916,7 +916,7 @@ const chartOptions = {
             </ul>
           </div>
         </div>
-        <div class="border-t border-indigo-800 mt-8 pt-8 text-center text-indigo-300">
+        <div class="border-t border-gray-300 mt-8 pt-8 text-center text-gray-500">
           <p>&copy; 2025 PZG Project. All rights reserved.</p>
         </div>
       </div>
