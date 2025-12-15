@@ -121,19 +121,19 @@ const chartOptions = {
         
         <!-- Desktop Menu -->
         <nav class="hidden md:flex space-x-8">
-          <a href="#home" class="font-medium text-gray-700 hover:text-gray-600 transition-colors">Home</a>
-          <a href="#about" class="font-medium text-gray-700 hover:text-indigo-600 transition-colors">About PZG</a>
-          <a href="#solutions" class="font-medium text-gray-700 hover:text-indigo-600 transition-colors">Technology</a>
-          <a href="#tokenomics" class="font-medium text-gray-700 hover:text-indigo-600 transition-colors">Tokenomics</a>
-          <a href="#features" class="font-medium text-gray-700 hover:text-indigo-600 transition-colors">Core Advantages</a>
-          <a href="#scenarios" class="font-medium text-gray-700 hover:text-indigo-600 transition-colors">Use Cases</a>
-          <a href="#roadmap" class="font-medium text-gray-700 hover:text-indigo-600 transition-colors">Roadmap</a>
-          <a href="#risks" class="font-medium text-gray-700 hover:text-indigo-600 transition-colors">Risks & Compliance</a>
-          <a href="#contact" class="font-medium text-gray-700 hover:text-indigo-600 transition-colors">Contact Us</a>
+          <a href="#home" class="font-medium text-gray-700 hover:text-blue-600 transition-colors">Home</a>
+          <a href="#about" class="font-medium text-gray-700 hover:text-blue-600 transition-colors">About PZG</a>
+          <a href="#solutions" class="font-medium text-gray-700 hover:text-blue-600 transition-colors">Technology</a>
+          <a href="#tokenomics" class="font-medium text-gray-700 hover:text-blue-600 transition-colors">Tokenomics</a>
+          <a href="#features" class="font-medium text-gray-700 hover:text-blue-600 transition-colors">Core Advantages</a>
+          <a href="#scenarios" class="font-medium text-gray-700 hover:text-blue-600 transition-colors">Use Cases</a>
+          <a href="#roadmap" class="font-medium text-gray-700 hover:text-blue-600 transition-colors">Roadmap</a>
+          <a href="#risks" class="font-medium text-gray-700 hover:text-blue-600 transition-colors">Risks & Compliance</a>
+          <a href="#contact" class="font-medium text-gray-700 hover:text-blue-600 transition-colors">Contact Us</a>
         </nav>
         
         <!-- Mobile Menu Button -->
-        <button class="md:hidden text-gray-700 hover:text-indigo-600" @click="isMenuOpen = !isMenuOpen">
+        <button class="md:hidden text-gray-700 hover:text-blue-600" @click="isMenuOpen = !isMenuOpen">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
           </svg>
@@ -143,15 +143,15 @@ const chartOptions = {
       <!-- Mobile Menu -->
         <div v-if="isMenuOpen" class="md:hidden bg-white border-t">
           <div class="container mx-auto px-4 py-3 space-y-3">
-            <a href="#home" class="block py-2 font-medium text-gray-700 hover:text-indigo-600 transition-colors">Home</a>
-            <a href="#about" class="block py-2 font-medium text-gray-700 hover:text-indigo-600 transition-colors">About PZG</a>
-            <a href="#solutions" class="block py-2 font-medium text-gray-700 hover:text-indigo-600 transition-colors">Technology</a>
-            <a href="#tokenomics" class="block py-2 font-medium text-gray-700 hover:text-indigo-600 transition-colors">Tokenomics</a>
-            <a href="#features" class="block py-2 font-medium text-gray-700 hover:text-indigo-600 transition-colors">Core Advantages</a>
-            <a href="#scenarios" class="block py-2 font-medium text-gray-700 hover:text-indigo-600 transition-colors">Use Cases</a>
-            <a href="#roadmap" class="block py-2 font-medium text-gray-700 hover:text-indigo-600 transition-colors">Roadmap</a>
-            <a href="#risks" class="block py-2 font-medium text-gray-700 hover:text-indigo-600 transition-colors">Risks & Compliance</a>
-            <a href="#contact" class="block py-2 font-medium text-gray-700 hover:text-indigo-600 transition-colors">Contact Us</a>
+            <a href="#home" class="block py-2 font-medium text-gray-700 hover:text-blue-600 transition-colors">Home</a>
+            <a href="#about" class="block py-2 font-medium text-gray-700 hover:text-blue-600 transition-colors">About PZG</a>
+            <a href="#solutions" class="block py-2 font-medium text-gray-700 hover:text-blue-600 transition-colors">Technology</a>
+            <a href="#tokenomics" class="block py-2 font-medium text-gray-700 hover:text-blue-600 transition-colors">Tokenomics</a>
+            <a href="#features" class="block py-2 font-medium text-gray-700 hover:text-blue-600 transition-colors">Core Advantages</a>
+            <a href="#scenarios" class="block py-2 font-medium text-gray-700 hover:text-blue-600 transition-colors">Use Cases</a>
+            <a href="#roadmap" class="block py-2 font-medium text-gray-700 hover:text-blue-600 transition-colors">Roadmap</a>
+            <a href="#risks" class="block py-2 font-medium text-gray-700 hover:text-blue-600 transition-colors">Risks & Compliance</a>
+            <a href="#contact" class="block py-2 font-medium text-gray-700 hover:text-blue-600 transition-colors">Contact Us</a>
           </div>
         </div>
     </header>
@@ -167,7 +167,7 @@ const chartOptions = {
           PZG is the "intelligent grid" connecting all blockchains. Leveraging decentralized technology and AI, we break down cross-chain value barriers, enabling assets to flow safely and efficiently to value-maximizing scenarios in the global multi-chain ecosystem, achieving integrated, intelligent, and democratized liquidity.
         </p>
         <div class="flex flex-col sm:flex-row justify-center gap-4 scroll-animation opacity-0 transform scale-95 transition-all duration-700 animation-delay-400">
-          <button class="bg-indigo-600 hover:bg-gray-700 text-white font-semibold px-8 py-3 rounded-full transition-all hover:shadow-lg transform hover:-translate-y-1">
+          <button class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-3 rounded-full transition-all hover:shadow-lg transform hover:-translate-y-1">
             View Whitepaper
           </button>
         </div>
@@ -176,56 +176,56 @@ const chartOptions = {
       <!-- Solutions Section -->
       <section id="solutions" class="container mx-auto px-4 py-16">
         <div class="text-center mb-16">
-          <h2 class="text-3xl md:text-4xl font-bold text-indigo-900 mb-4">Three-Core Technical Architecture</h2>
+          <h2 class="text-3xl md:text-4xl font-bold text-blue-900 mb-4">Three-Core Technical Architecture</h2>
           <p class="text-gray-600 max-w-2xl mx-auto">Building an efficient, secure, and intelligent multi-chain value planning network</p>
         </div>
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="bg-white rounded-xl shadow-lg p-8 transition-all hover:shadow-xl transform hover:-translate-y-2 scroll-animation opacity-0 transform translate-y-10 transition-all duration-700">
             <div class="bg-gray-100 w-14 h-14 rounded-full flex items-center justify-center mb-6">
-              <svg class="w-7 h-7 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
               </svg>
             </div>
             <h3 class="text-xl font-bold mb-3 text-gray-800">Cross-Chain Communication Layer</h3>
             <ul class="text-gray-600 space-y-2">
-              <li class="flex items-start"><span class="text-indigo-600 mr-2">•</span>Decentralized Validator Network: Global node operators stake PZG to qualify</li>
-              <li class="flex items-start"><span class="text-indigo-600 mr-2">•</span>Consensus Mechanism: Enhanced PBFT, requiring more than two-thirds of weighted nodes to confirm cross-chain messages</li>
-              <li class="flex items-start"><span class="text-indigo-600 mr-2">•</span>Hybrid Security: Optimistic Validation (1-4 hour challenge period) + ZKP (for high-value/governance transactions)</li>
+              <li class="flex items-start"><span class="text-blue-600 mr-2">•</span>Decentralized Validator Network: Global node operators stake PZG to qualify</li>
+              <li class="flex items-start"><span class="text-blue-600 mr-2">•</span>Consensus Mechanism: Enhanced PBFT, requiring more than two-thirds of weighted nodes to confirm cross-chain messages</li>
+              <li class="flex items-start"><span class="text-blue-600 mr-2">•</span>Hybrid Security: Optimistic Validation (1-4 hour challenge period) + ZKP (for high-value/governance transactions)</li>
             </ul>
           </div>
           
           <div class="bg-white rounded-xl shadow-lg p-8 transition-all hover:shadow-xl transform hover:-translate-y-2 scroll-animation opacity-0 transform translate-y-10 transition-all duration-700 animation-delay-200">
-            <div class="bg-indigo-100 w-14 h-14 rounded-full flex items-center justify-center mb-6">
-              <svg class="w-7 h-7 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="bg-blue-100 w-14 h-14 rounded-full flex items-center justify-center mb-6">
+              <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
               </svg>
             </div>
-            <h3 class="text-xl font-bold mb-3 text-indigo-800">Value Distribution Layer</h3>
+            <h3 class="text-xl font-bold mb-3 text-blue-800">Value Distribution Layer</h3>
             <ul class="text-gray-600 space-y-2">
-              <li class="flex items-start"><span class="text-indigo-600 mr-2">•</span>Unified Liquidity Fund: Aggregates liquidity from multi-chain DEXs and lending protocols</li>
-              <li class="flex items-start"><span class="text-indigo-600 mr-2">•</span>Dynamic Pathfinding Algorithm: Millisecond-level optimization supporting multi-hop routing</li>
-              <li class="flex items-start"><span class="text-indigo-600 mr-2">•</span>Atomic Transactions: HTLC contracts ensure transactions either complete successfully or fail entirely</li>
+              <li class="flex items-start"><span class="text-blue-600 mr-2">•</span>Unified Liquidity Fund: Aggregates liquidity from multi-chain DEXs and lending protocols</li>
+              <li class="flex items-start"><span class="text-blue-600 mr-2">•</span>Dynamic Pathfinding Algorithm: Millisecond-level optimization supporting multi-hop routing</li>
+              <li class="flex items-start"><span class="text-blue-600 mr-2">•</span>Atomic Transactions: HTLC contracts ensure transactions either complete successfully or fail entirely</li>
             </ul>
           </div>
           
           <div class="bg-white rounded-xl shadow-lg p-8 transition-all hover:shadow-xl transform hover:-translate-y-2 scroll-animation opacity-0 transform translate-y-10 transition-all duration-700 animation-delay-400">
-            <div class="bg-indigo-100 w-14 h-14 rounded-full flex items-center justify-center mb-6">
-              <svg class="w-7 h-7 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="bg-blue-100 w-14 h-14 rounded-full flex items-center justify-center mb-6">
+              <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
               </svg>
             </div>
-            <h3 class="text-xl font-bold mb-3 text-indigo-800">AI Revenue Distribution Layer</h3>
+            <h3 class="text-xl font-bold mb-3 text-blue-800">AI Revenue Distribution Layer</h3>
             <ul class="text-gray-600 space-y-2">
-              <li class="flex items-start"><span class="text-indigo-600 mr-2">•</span>Multi-Source Data Integration: Real-time on-chain data, oracles, and risk alerts</li>
-              <li class="flex items-start"><span class="text-indigo-600 mr-2">•</span>Personalized Strategies: Generates customized cross-chain strategies based on user risk preferences</li>
-              <li class="flex items-start"><span class="text-indigo-600 mr-2">•</span>Automatic Execution & Rebalancing: One-click execution of complex strategies with real-time monitoring and automatic adjustments</li>
+              <li class="flex items-start"><span class="text-blue-600 mr-2">•</span>Multi-Source Data Integration: Real-time on-chain data, oracles, and risk alerts</li>
+              <li class="flex items-start"><span class="text-blue-600 mr-2">•</span>Personalized Strategies: Generates customized cross-chain strategies based on user risk preferences</li>
+              <li class="flex items-start"><span class="text-blue-600 mr-2">•</span>Automatic Execution & Rebalancing: One-click execution of complex strategies with real-time monitoring and automatic adjustments</li>
             </ul>
           </div>
         </div>
         
         <div class="mt-16 bg-white rounded-xl shadow-lg p-8 scroll-animation opacity-0 transform scale-95 transition-all duration-700 animation-delay-600">
-          <h3 class="text-2xl font-bold mb-6 text-center text-indigo-800">Security Mechanisms</h3>
+          <h3 class="text-2xl font-bold mb-6 text-center text-blue-800">Security Mechanisms</h3>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div class="flex items-start space-x-4">
               <div class="bg-gray-100 p-2 rounded-full">
@@ -239,19 +239,19 @@ const chartOptions = {
               </div>
             </div>
             <div class="flex items-start space-x-4">
-              <div class="bg-green-100 p-2 rounded-full">
-                <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                </svg>
-              </div>
+              <div class="bg-blue-100 p-2 rounded-full">
+              <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+            </div>
               <div>
                 <h4 class="text-lg font-semibold mb-2 text-gray-800">Distributed Key Management</h4>
                 <p class="text-gray-600">Threshold signature technology ensures key security</p>
               </div>
             </div>
             <div class="flex items-start space-x-4">
-              <div class="bg-green-100 p-2 rounded-full">
-                <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="bg-blue-100 p-2 rounded-full">
+                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
               </div>
@@ -261,8 +261,8 @@ const chartOptions = {
               </div>
             </div>
             <div class="flex items-start space-x-4">
-              <div class="bg-green-100 p-2 rounded-full">
-                <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="bg-blue-100 p-2 rounded-full">
+                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                 </svg>
               </div>
@@ -278,13 +278,13 @@ const chartOptions = {
       <!-- Tokenomics Section -->
       <section id="tokenomics" class="container mx-auto px-4 py-16">
         <div class="text-center mb-16">
-          <h2 class="text-3xl md:text-4xl font-bold text-indigo-900 mb-4">Tokenomics</h2>
+          <h2 class="text-3xl md:text-4xl font-bold text-blue-900 mb-4">Tokenomics</h2>
           <p class="text-gray-600 max-w-2xl mx-auto">Core information, utilities, allocation mechanism, and economic model of PZG token</p>
         </div>
         
         <!-- Core Token Info -->
         <div class="bg-white rounded-xl shadow-lg p-8 mb-12 scroll-animation opacity-0 transition-opacity duration-700 animation-delay-200">
-          <h3 class="text-2xl font-bold mb-6 text-indigo-800">Core Token Information</h3>
+          <h3 class="text-2xl font-bold mb-6 text-blue-800">Core Token Information</h3>
           <div class="overflow-x-auto">
             <table class="w-full border-collapse">
               <thead>
@@ -325,11 +325,11 @@ const chartOptions = {
         
         <!-- Token Utilities -->
         <div class="bg-white rounded-xl shadow-lg p-8 mb-12 scroll-animation opacity-0 transition-opacity duration-700 animation-delay-400">
-          <h3 class="text-2xl font-bold mb-6 text-indigo-800">Token Utilities</h3>
+          <h3 class="text-2xl font-bold mb-6 text-blue-800">Token Utilities</h3>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div class="flex items-start space-x-4">
-              <div class="bg-indigo-100 p-2 rounded-full">
-                <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="bg-blue-100 p-2 rounded-full">
+                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                 </svg>
               </div>
@@ -339,8 +339,8 @@ const chartOptions = {
               </div>
             </div>
             <div class="flex items-start space-x-4">
-              <div class="bg-indigo-100 p-2 rounded-full">
-                <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="bg-blue-100 p-2 rounded-full">
+                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
                 </svg>
               </div>
@@ -350,8 +350,8 @@ const chartOptions = {
               </div>
             </div>
             <div class="flex items-start space-x-4">
-              <div class="bg-indigo-100 p-2 rounded-full">
-                <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="bg-blue-100 p-2 rounded-full">
+                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
                 </svg>
               </div>
@@ -361,8 +361,8 @@ const chartOptions = {
               </div>
             </div>
             <div class="flex items-start space-x-4">
-              <div class="bg-indigo-100 p-2 rounded-full">
-                <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="bg-blue-100 p-2 rounded-full">
+                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
                 </svg>
               </div>
@@ -376,7 +376,7 @@ const chartOptions = {
         
         <!-- Allocation & Release -->
         <div class="bg-white rounded-xl shadow-lg p-8 mb-12 scroll-animation opacity-0 transition-opacity duration-700 animation-delay-600">
-          <h3 class="text-2xl font-bold mb-6 text-indigo-800">Allocation & Release Rules</h3>
+          <h3 class="text-2xl font-bold mb-6 text-blue-800">Allocation & Release Rules</h3>
           
           <!-- Pie Chart for Allocation -->
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
@@ -388,7 +388,7 @@ const chartOptions = {
             <div class="overflow-x-auto">
               <table class="w-full border-collapse">
                 <thead>
-                  <tr class="bg-indigo-50">
+                  <tr class="bg-blue-50">
                     <th class="border-b border-gray-200 px-4 py-3 text-left text-gray-600 font-semibold">Category</th>
                     <th class="border-b border-gray-200 px-4 py-3 text-left text-gray-600 font-semibold">Release Rules</th>
                   </tr>
@@ -430,18 +430,18 @@ const chartOptions = {
         
         <!-- Economic Model -->
         <div class="bg-white rounded-xl shadow-lg p-8 scroll-animation opacity-0 transition-opacity duration-700 animation-delay-800">
-          <h3 class="text-2xl font-bold mb-6 text-indigo-800">Economic Model</h3>
+          <h3 class="text-2xl font-bold mb-6 text-blue-800">Economic Model</h3>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div class="bg-indigo-50 rounded-lg p-6 scroll-animation opacity-0 transform translate-y-10 transition-all duration-700 animation-delay-1400">
-              <h4 class="text-lg font-semibold mb-3 text-indigo-800">Demand-Driven</h4>
+            <div class="bg-blue-50 rounded-lg p-6 scroll-animation opacity-0 transform translate-y-10 transition-all duration-700 animation-delay-1400">
+              <h4 class="text-lg font-semibold mb-3 text-blue-800">Demand-Driven</h4>
               <p class="text-gray-600">Network growth → increased fee consumption, enhanced governance/staking demand</p>
             </div>
-            <div class="bg-indigo-50 rounded-lg p-6 scroll-animation opacity-0 transform translate-y-10 transition-all duration-700 animation-delay-1000">
-              <h4 class="text-lg font-semibold mb-3 text-indigo-800">Deflationary Mechanism</h4>
+            <div class="bg-blue-50 rounded-lg p-6 scroll-animation opacity-0 transform translate-y-10 transition-all duration-700 animation-delay-1000">
+              <h4 class="text-lg font-semibold mb-3 text-blue-800">Deflationary Mechanism</h4>
               <p class="text-gray-600">Continuous fee burning + long-term locking + staking → controlled supply</p>
             </div>
-            <div class="bg-indigo-50 rounded-lg p-6 scroll-animation opacity-0 transform translate-y-10 transition-all duration-700 animation-delay-1200">
-              <h4 class="text-lg font-semibold mb-3 text-indigo-800">Value Distribution</h4>
+            <div class="bg-blue-50 rounded-lg p-6 scroll-animation opacity-0 transform translate-y-10 transition-all duration-700 animation-delay-1200">
+              <h4 class="text-lg font-semibold mb-3 text-blue-800">Value Distribution</h4>
               <p class="text-gray-600">50% Node Staking, 30% Ecosystem Treasury, 20% Burn</p>
             </div>
           </div>
