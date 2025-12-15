@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 1s ease-out forwards;
+  }
+  
+  .transition-scale {
+    transition: transform 0.5s ease;
+  }
+  
+  .hover\:-translate-y-1 {
+    transform: translateY(0);
+  }
+  
+  .hover\:-translate-y-1:hover {
+    transform: translateY(-0.25rem);
+  }
+  
+  /* Scroll animation classes */
+  .scroll-animation {
+    opacity: 0;
+    transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  /* Enhanced transition timing functions */
+  .scroll-animation.ease-out-expo {
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  
+  .scroll-animation.ease-out-back {
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  /* Default transform states for different animation types */
+  .scroll-animation.opacity-0 {
+    opacity: 0;
+  }
+  
+  .scroll-animation.transform\:translate-y-10 {
+    transform: translateY(2.5rem);
+  }
+  
+  .scroll-animation.transform\:translate-y-20 {
+    transform: translateY(5rem);
+  }
+  
+  .scroll-animation.transform\:translate-x-10 {
+    transform: translateX(2.5rem);
+  }
+  
+  .scroll-animation.transform\:translate-x-20 {
+    transform: translateX(5rem);
+  }
+  
+  .scroll-animation.transform\:translate-x-\-10 {
+    transform: translateX(-2.5rem);
+  }
+  
+  .scroll-animation.transform\:translate-x-\-20 {
+    transform: translateX(-5rem);
+  }
+  
+  .scroll-animation.transform\:scale-95 {
+    transform: scale(0.95);
+  }
+  
+  .scroll-animation.transform\:scale-90 {
+    transform: scale(0.9);
+  }
+  
+  /* New transform states */
+  .scroll-animation.transform\:translate-y-5 {
+    transform: translateY(1.25rem);
+  }
+  
+  .scroll-animation.transform\:translate-x-5 {
+    transform: translateX(1.25rem);
+  }
+  
+  .scroll-animation.transform\:translate-x-\-5 {
+    transform: translateX(-1.25rem);
+  }
+  
+  .scroll-animation.transform\:scale-105 {
+    transform: scale(1.05);
+  }
+  
+  /* Active states for animations */
+  .scroll-animation.animate-active {
+    opacity: 1;
+    transform: translateY(0) translateX(0) scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
